@@ -44,5 +44,35 @@
 - 만든 유저에게 세션, 테이블, 리소스 권한 부여해야 함
 
 ### 쿼리문
+#### INSERT문  
 - INSERT INTO 테이블명 VALUES (컬럼값1, 컬럼값2, 컬럼값3 ...);  
 또는 INSERT INTO 테이블명 (컬럼명1, 컬럼명2, 컬럼명3) VALUES(컬럼값1, 컬럼값2, 컬럼값3)
+
+#### SELECT문
+- SELECT * FROM 테이블명  
+모두 조회
+- SELECT 컬럼명 FROM 테이블명  
+컬럼명에대한 정보만 출력
+- SELECT * FROM 테이블명 WHERE 조건  
+조건에 따른 정보만 출력
+- SELECT * FROM 테이블명 ORDER BY 컬럼 DESC/ASC  
+지정 컬럼 순서에 따라 출력(내림차순/오름차순)
+
+#### ORDER BY절
+- 데이터양이 많은 테이블에 남발할 경우 소트부하가 발생해 성능의 저하를 가져올 수 있음  
+자주 등장하는 컬럼을 인덱스로 설정을 해두면 성능에 유리함
+- 여러 컬럼을 지정할 수 있음
+- ORDER BY 컬럼명 NULLS LAST/FIRST  
+지정컬럼으로 정렬하고 컬럼의 NULL값을 첫번째로/마지막으로 보냄
+
+#### JOIN문
+- INNER JOIN
+  - SELECT 컬럼명.A, 컬럼명.B FROM 테이블명.A, 테이블명.B WHERE A.컬럼명 = B.컬럼명;
+- OUTER JOIN
+  - INNER JOIN 끝에 (+) 추가
+  - SELECT * FROM 테이블명 A (LEFT/RIGHT) OUTER JOIN 테이블명 B ON B.컬럼명 = A.컬럼명;
+- INNER JOIN은 교집합, FULL OUTER JOIN은 합집합, RIGHT/LEFT JOIN은 기준테이블의 값 + 테이블과 기준테이블의 중복된 값
+
+#### UPDATE문
+- UPDATE 테이블명 SET 컬럼명 = 변경하려는 값 WHERE 컬럼명 = 조건값;
+- 마지막에 COMMIT해야 영구적으로 테이블이 변경됨
