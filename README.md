@@ -32,7 +32,7 @@
 - Unique Index가 자동으로 생성
 - 설정 명령어 = CONSTRAINT UK이름 UNIQUE (UK컬럼);
 
-### FK(Foreign Key) = 외래키
+#### FK(Foreign Key) = 외래키
 - 부모 테이블이 있다는 것을 의미
 - 참조 컬럼과 데이터 타입도 일치해야함
 - 부모테이블에 참조되는 컬럼은 PK나 UK로 설정이 되어 있어야 함
