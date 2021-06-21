@@ -37,3 +37,12 @@
 - 참조 컬럼과 데이터 타입도 일치해야함
 - 부모테이블에 참조되는 컬럼은 PK나 UK로 설정이 되어 있어야 함
 - 설정 명령어 = CONSTRAINT FK이름 FOREIGN KEY (FK컬럼) REFERENCES 부모테이블(참조컬럼);
+
+## 실습
+- SYS테이블 생성
+- CREATE USER 이름 IDENTIFIED BY 비밀번호;
+- 만든 유저에게 세션, 테이블, 리소스 권한 부여해야 함
+
+### 쿼리문
+- INSERT INTO 테이블명 VALUES (컬럼값1, 컬럼값2, 컬럼값3 ...);  
+또는 INSERT INTO 테이블명 (컬럼명1, 컬럼명2, 컬럼명3) VALUES(컬럼값1, 컬럼값2, 컬럼값3)
