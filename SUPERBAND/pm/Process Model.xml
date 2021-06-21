@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A4AFAE97-EECC-85D7-5E5C-33CA5D949437">
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:16:14 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFD03916-AC75-CF2F-311F-137252CC8016" schemaObject="C4C11171-4491-F867-0D43-11E456470620" name="SUPERBAND_MEMBER">
+<sourceConnName>TAMI</sourceConnName>
+<sourceObjSchema>TAMI</sourceObjSchema>
+<sourceObjName>SUPERBAND_MEMBER</sourceObjName>
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:57:30 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEQ" id="B442FFE7-E93B-78EE-A47D-3F158E07C30F">
+<sourceConnName>TAMI</sourceConnName>
+<sourceObjSchema>SUPERBAND_MEMBER</sourceObjSchema>
+<sourceObjName>SEQ</sourceObjName>
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:57:30 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="CD9B6D24-30FE-D7AE-010F-B54F799012E0">
+<sourceConnName>TAMI</sourceConnName>
+<sourceObjSchema>SUPERBAND_MEMBER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:57:30 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSITION" id="BC0E2698-93A7-20FB-168F-45BF97B46488">
+<sourceConnName>TAMI</sourceConnName>
+<sourceObjSchema>SUPERBAND_MEMBER</sourceObjSchema>
+<sourceObjName>POSITION</sourceObjName>
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:57:30 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FINAL_YN" id="6BC83F94-97F7-0CDF-F29F-3B75CEF8A635">
+<sourceConnName>TAMI</sourceConnName>
+<sourceObjSchema>SUPERBAND_MEMBER</sourceObjSchema>
+<sourceObjName>FINAL_YN</sourceObjName>
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:57:30 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

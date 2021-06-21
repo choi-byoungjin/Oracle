@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="TAMI" directorySegmentName="seg_0" id="C4C11171-4491-F867-0D43-11E456470620">
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:57:30 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+</SchemaObject>

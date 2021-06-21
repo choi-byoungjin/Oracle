@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="480DE580-5438-363D-A4DA-3D7265B3E3F2">
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:16:14 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

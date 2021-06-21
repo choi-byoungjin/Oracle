@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g" name="Oracle Database 11g" id="B2276DFD-F50C-A3C5-2159-2DCA3BFB50E2" siteID="32076570-2523-435C-2E92-BF29817DFF70" siteName="Oracle Database 11g" siteType="9">
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:17:58 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+</StorageDesignOraclev11g>

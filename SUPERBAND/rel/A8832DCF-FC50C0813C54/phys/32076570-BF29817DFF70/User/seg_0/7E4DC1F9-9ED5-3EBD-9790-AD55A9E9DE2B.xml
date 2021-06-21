@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="TAMI" directorySegmentName="seg_0" id="7E4DC1F9-9ED5-3EBD-9790-AD55A9E9DE2B">
+<sourceConnName>TAMI</sourceConnName>
+<sourceObjName>TAMI</sourceObjName>
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:57:30 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<schemaObject>C4C11171-4491-F867-0D43-11E456470620</schemaObject>
+</UserOraclev10g>

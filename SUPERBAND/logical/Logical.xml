@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BAD33B25-00D9-002E-1255-E92D3C0145F9" mainViewID="8591AAC6-4B15-D214-F21E-043E9AD4676B">
+<createdBy>bj</createdBy>
+<createdTime>2021-06-21 15:16:14 UTC</createdTime>
+<ownerDesignName>SUPERBAND</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
