@@ -88,15 +88,20 @@
 
 ### NULL 관련 함수
 
-#### NVL함수
+ #### NVL함수
 - 데이터가 NULL이면 대체값을 출력하는 함수
 - NVL(NULL값 있는 컬럼명, 대체컬럼) 출력할 컬럼명
 - SELECT쿼리를 수정해 연산을 사용할 때 에러가 발생할 수 있기때문에 사용해야함
 
-#### NULLIF함수
+ #### NULLIF함수
 - 데이터가 NULL이면 입력한 대체값을 출력하는 함수
 - NULLIF(NULL값 있는 컬럼명, '대체값') 출력할 컬럼명
 
-#### COALESCE함수
+ #### COALESCE함수
 - 데이터가 NULL이면 NULL이 아닌 최초의 값을 출력
 - COALESCE(NULL, NULL값 있는 컬럼명, 대체컬럼)
+
+### UNION VS UNION ALL
+- UNION은 교집합을 DISTINCT, 데이터타입이 같아야함
+- UNION ALL은 교집합에대해 가감없이 출력
+- UNION(MINUS, INTERSECT)은 SORT 연산을 발생시키는 명령어이기 때문에 굳이 중복값을 제거하지 않아도 되는 상황이거나 PK컬럼이 있어서 row의 ㅇ니크함이 보장되는 상황일때는 UNION을 UNION ALL로 대체를 해서 쿼리를 작성하는게 성능에 도움이 됨
