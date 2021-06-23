@@ -113,6 +113,38 @@
 - 사용할 계정에서 생성
 - 보안상 생길 수 있는 문제를 방지
 
+### 기타 유용한 SQL
+## SUBSTR
+- 문자를 내마음대로 잘라쓰는 함수  
+EX) SELECT SUBSTR('오라클 깃허브', 2) FROM DUAL;
+=> 라클 깃허브
+SELECT SUBSTR('오라클 깃허브', 2, 5) FROM DUAL;
+=> 라클 깃허
+SELECT SUBSTR('오라클 깃허브', -3, 2) FROM DUAL;
+=> 깃허
+
+## REPLACE
+- 특정 문자열을 다른 문자열로 바꿔치기 하는 함수  
+EX) SELECT REPLACE('오라클 깃허브', '깃허브', 'GIT')
+=> 오라클 GIT
+
+## UPPER / LOWER
+- 문자열을 대문자 / 소문자로 변환하는 함수  
+EX) SELECT UPPER('Oracle') FROM DUAL;
+=> ORACLE
+SELECT LOWER('Oracle') FROM DUAL;
+=> oracle
+- NULL이 있으면 NULL출력
+
+## TRUNC
+- 뭐든 가차없이 버려버리는 함수
+
+## GREATEST / LEAST
+- 최대값 / 최소값을 반환하는 함수
+
+## DUAL
+- SYS 계정 소유의 내장 테이블
+- PUBLIC이어서 누구나 접근 가능
 ## 정규화
 - 데이터가 꼬이는 것을 막기 위해 테이블을 잘게 나누는 것
 ### 제1정규형 (1NF)
@@ -134,7 +166,7 @@
 <img src = "https://user-images.githubusercontent.com/74530618/123144016-2cfea180-d496-11eb-9aaf-ed09b39bc7e0.png" width = "70%" height="70%">
 
 ## 반정규화
-
+- 성능 향상을 위해 정규화를 포기하는 것이지만 데이터 무결성이 보장 되지 않으므로 제한적으로 사용해야 한다.
 ## 테이블 반정규화
 - 테이블 병합/분할/추가
 - https://www.youtube.com/watch?v=SS6H2whbfwc&list=PLyQR2NzLKOCb-i7xCOQVU_yomhvHRteDy&index=17
