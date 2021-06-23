@@ -114,12 +114,27 @@
 - 보안상 생길 수 있는 문제를 방지
 
 ## 정규화
-
+- 데이터가 꼬이는 것을 막기 위해 테이블을 잘게 나누는 것
 ### 제1정규형 (1NF)
 - 원자성
 - 모든 속성은 반드시 하나의 값만 가져야 한다.
 <img src = "https://user-images.githubusercontent.com/74530618/123142762-bf05aa80-d494-11eb-9896-126615275f7e.png" width = "70%" height="70%">
 <img src = "https://user-images.githubusercontent.com/74530618/123143313-671b7380-d495-11eb-9c75-c917c5e863cb.png" width = "70%" height="70%">
+
 ### 제2정규형 (2NF)
 - 부분 종속
 - 모든 속성은 반드시 모든 기본키에 종속되어야 한다. (기본키 일부에만 종속되어서는 안됨)
+<img src = "https://user-images.githubusercontent.com/74530618/123143512-a3e76a80-d495-11eb-93e2-df239d08ba39.png" width = "70%" height="70%">
+<img src = "https://user-images.githubusercontent.com/74530618/123143705-cbd6ce00-d495-11eb-9fac-03aade5fdf5a.png" width = "70%" height="70%">
+
+### 제3정규형 (3NF)
+- 이행 종속
+- 기본키가 아닌 모든 속성간에는 서로 종속될 수 없다.
+<img src = "https://user-images.githubusercontent.com/74530618/123143932-11939680-d496-11eb-92b7-455149073bed.png" width = "70%" height="70%">
+<img src = "https://user-images.githubusercontent.com/74530618/123144016-2cfea180-d496-11eb-9aaf-ed09b39bc7e0.png" width = "70%" height="70%">
+
+## 반정규화
+
+## 테이블 반정규화
+- 테이블 병합/분할/추가
+- https://www.youtube.com/watch?v=SS6H2whbfwc&list=PLyQR2NzLKOCb-i7xCOQVU_yomhvHRteDy&index=17
