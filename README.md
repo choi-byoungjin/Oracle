@@ -113,4 +113,13 @@
 - 사용할 계정에서 생성
 - 보안상 생길 수 있는 문제를 방지
 
+## 정규화
 
+### 제1정규형 (1NF)
+- 원자성
+- 모든 속성은 반드시 하나의 값만 가져야 한다.
+<img src = "https://user-images.githubusercontent.com/74530618/123142762-bf05aa80-d494-11eb-9896-126615275f7e.png" width = "70%" height="70%">
+<img src = "https://user-images.githubusercontent.com/74530618/123143313-671b7380-d495-11eb-9c75-c917c5e863cb.png" width = "70%" height="70%">
+### 제2정규형 (2NF)
+- 부분 종속
+- 모든 속성은 반드시 모든 기본키에 종속되어야 한다. (기본키 일부에만 종속되어서는 안됨)
